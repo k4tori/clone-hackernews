@@ -2,11 +2,21 @@
 a{color: black; 
      text-decoration: none;}
 
-   h3 {border:4px;
-    padding 5px;
-margin 20px;
- background-color: orange;
+   h4 {
+ background-color:rgb(238, 110, 37);
 }
-
-
-    
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+align-items: center;
+}
+ 
+.box div {
+  width: auto;
+  height: auto;
+ } 
+ .b {line-height: 10px;
+line weight: 12px
+}
