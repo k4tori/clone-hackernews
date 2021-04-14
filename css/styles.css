@@ -7,12 +7,15 @@ a {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: auto;
-    align-items: center;
+    width: 85%;
+    align-items: right;
     box-sizing: border-box;
-    background-color: yellow;
+    background-color:rgba(240, 234, 234, 0.808);
     justify-content: space-between;
     width: thick;
+    padding: auto;
+    border: auto;
+    margin: auto;   
 }
 
 .box div {
@@ -34,17 +37,25 @@ span {
 }
 
 h4 {
-    margin-bottom: 8px
+    margin-bottom: 1px
 }
 
 h6 {
-    margin-top: 3px
+    margin-top: 1px
 }
 
 .box1 {
-    width: auto;
+    width: 85%;
     border: auto;
     background-color: orangered;
     padding: auto;
     margin: auto;
+}
+
+img{
+    margin: 12px;
+    height:12px;
+    width: 12px;
+    background-color:rgba(240, 234, 234, 0.808);
+    color: rgba(240, 234, 234, 0.808);
 }
