@@ -37,19 +37,20 @@ span {
 }
 
 h4 {
-    margin-bottom: 1px
+    margin-bottom: -5px
 }
 
 h6 {
-    margin-top: 1px
+    margin-top: -5px
 }
 
 .box1 {
     width: 85%;
     border: auto;
-    background-color: orangered;
     padding: auto;
     margin: auto;
+    list-style-type: none;
+    background-color: orangered;
 }
 
 img{
@@ -59,3 +60,9 @@ img{
     background-color:rgba(240, 234, 234, 0.808);
     color: rgba(240, 234, 234, 0.808);
 }
+
+ul {
+    margin: auto;
+    padding: auto;
+    background-color: orangered
+  }
