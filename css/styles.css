@@ -13,7 +13,7 @@ a {
     background-color:rgba(240, 234, 234, 0.808);
     justify-content: space-between;
     width: thick;
-    padding: auto;
+    padding: 0px;
     border: auto;
     margin: auto;   
 }
@@ -26,6 +26,7 @@ a {
 .b {
     line-height: 10px;
     font-weight: 12px;
+    margin-top: auto;
 }
 
 textarea {
@@ -37,11 +38,11 @@ span {
 }
 
 h4 {
-    margin-bottom: -5px
+    margin-bottom: 1px
 }
 
 h6 {
-    margin-top: -5px
+    margin-top: 1px
 }
 
 .box1 {
@@ -51,14 +52,7 @@ h6 {
     margin: auto;
     list-style-type: none;
     background-color: orangered;
-}
-
-img{
-    margin: 12px;
-    height:12px;
-    width: 12px;
-    background-color:rgba(240, 234, 234, 0.808);
-    color: rgba(240, 234, 234, 0.808);
+    
 }
 
 ul {
@@ -66,3 +60,4 @@ ul {
     padding: auto;
     background-color: orangered
   }
+
