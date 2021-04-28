@@ -8,14 +8,14 @@ a {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 85%;
+    width: 86%;
     align-items: right;
     box-sizing: border-box;
     background-color: rgba(240, 234, 234, 0.808);
     justify-content: space-between;
     width: thick;
-    padding: 0px;
-    border: auto;
+    padding: 5px;
+    border: 0px;
     margin: auto;
     flex: 1;
 }
@@ -32,29 +32,33 @@ textarea {
 span {
     margin: 1px
 }
+
 h4 {
     margin-bottom: 1px;
-    margin-top: -25px;
-    font-weight: normal
+    font-weight: normal;
+    align-items: left;
+    margin-top: 1px
 }
 
 h6 {
     margin-top: 1px;
     color: grey;
-    margin-bottom: 30px;
-    margin-left: 40px;
+}
+
+h5 {
+    margin-top: 1px;
+    color: grey;
 }
 
 .box1 {
-    width: 85%;
+    width: 100%;
     background-color: #ff6600;
-    border: auto;
+    border: 0px;
     padding: 2px;
     margin: auto;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: auto;
     align-items: center;
-    
 }
 
 ul {
@@ -66,24 +70,39 @@ ul {
 .cinza {
     color: grey;
 }
-.upvote{
-content: "";
-display: inline-block;
-vertical-align: middle;
-margin-right: 10px;
-width: 0; 
-height: 0; 
-border-left: 5px solid transparent;
-border-right: 5px solid transparent;
-border-bottom: 8px solid black;
+
+.upvote {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid grey;
 }
 
-#negrito{
-    font-weight:bold;
+#negrito {
+    font-weight: bold;
 }
 
-#jorge{
+#jorge {
     display: flex;
     margin-left: auto;
     margin-right: 5px;
+}
+
+.arrumando {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#border {
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
 }
