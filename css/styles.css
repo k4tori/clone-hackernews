@@ -48,20 +48,39 @@ h6 {
 
 .box1 {
     width: 85%;
+    background-color: #ff6600;
+    align-items: center;
     border: auto;
     padding: auto;
     margin: auto;
     list-style-type: none;
-    background-color: #ff6600;
-    box-align: left;
+    place-items: center;
 }
 
 ul {
     margin: auto;
     padding: auto;
-    background-color: orangered
+    background-color: orangered;
 }
 
 .cinza {
     color: grey;
+}
+
+#upvote {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid red;     
+}
+
+#upvote:after {
+    width: 5px;
+    height: 6px;
+    background-color: grey;
+    content: '';
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -3px;
 }
